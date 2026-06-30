@@ -1,10 +1,10 @@
 # Customer Churn Prediction using Machine Learning
 
-## Project Overview
+## Overview
 
-This project predicts whether a telecom customer is likely to churn using Machine Learning.
+This project predicts customer churn for a telecom company using Machine Learning.
 
-The application is deployed using Streamlit and includes Explainable AI using SHAP.
+A Streamlit web application allows users to enter customer information and predict whether the customer is likely to churn.
 
 ## Features
 
@@ -15,40 +15,40 @@ The application is deployed using Streamlit and includes Explainable AI using SH
 - XGBoost
 - Model Comparison
 - SHAP Explainability
-- Streamlit Web App
+- Streamlit Deployment
 
-## Technologies Used
+## Technologies
 
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- XGBoost
-- SHAP
 - Streamlit
+- SHAP
+- XGBoost
 
 ## Model Performance
 
 | Metric | Score |
-|--------|------|
-| Accuracy | 79.7% |
-| Precision | 63.9% |
-| Recall | 54.5% |
-| F1 Score | 58.8% |
-| ROC-AUC | 83.5% |
-
-## Dataset
-
-IBM Telco Customer Churn Dataset
+|--------|-------|
+| Accuracy | 79.74% |
+| Precision | 63.95% |
+| Recall | 54.55% |
+| F1 Score | 58.87% |
+| ROC-AUC | 83.49% |
 
 ## Project Structure
 
 ```text
-app.py
-churn_model1.pkl
-scaler1.pkl
-requirements.txt
-README.md
+customer_churn_prediction_project/
+│
+├── app.py
+├── churn_model1.pkl
+├── scaler1.pkl
+├── customer_churn_pred.ipynb
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── requirements.txt
+└── README.md
 ```
 
 ## Future Improvements
@@ -56,8 +56,8 @@ README.md
 - Hyperparameter tuning
 - Deep Learning model
 - Docker deployment
-- CI/CD pipeline
+- CI/CD
 
 ## Author
 
-Prerna Sharma
+Prerna
